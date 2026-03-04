@@ -1,0 +1,100 @@
+:root{
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(0, 0, 0);
+}
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+ul{
+    list-style: none;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-flow: row;
+    grid-template-rows: repeat(6, minmax(75px, auto));
+}
+.buttonLink{
+    grid-column-start: span 2;
+    align-self: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 1.7rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+.buttonLink:hover{
+    background-color: black;
+    color: white;
+}
+.buttonLinkSub{
+    grid-column-start: span 2;
+    align-self: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 1.7rem;
+}
+.buttonLinkSub:hover{
+    background-color: black;
+    color: white;
+}
+.hidenBox{
+    grid-column-start: span 2;
+    align-self: center;
+}
+.mainContentTitle{
+    grid-column-start: span 4;
+    align-self: center;
+    padding: 4rem;
+}
+.stayUpToDate{
+    grid-column-start: span 2;
+    align-self: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 1.7rem;
+}
+.enterBox{
+    grid-column-start: span 2;
+    align-self: center;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 1.7rem;
+}
+.emptyBox{
+    grid-column-start: span 2;
+    box-shadow: 0 0 0 1px black;
+    padding: 3rem;
+}
+.minimalismNews{
+    grid-column-start: span 4;
+    box-shadow: 0 0 0 2px black;
+    padding: 3rem;
+}
+.mainSectionMainContent{
+    grid-column-start: span 3;
+    box-shadow: 0 0 0 1px black;
+    padding: 2rem;
+}
+.picture{
+    grid-column-start: span 3;
+    align-self: center;
+    justify-self: center;
+    box-shadow: 0 0 0 1px black;
+    padding: 2rem;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.navigate{
+     grid-column-start: span 2;
+}
+.followUs{
+    grid-column-start: span 2;
+}
+.miniVision{
+    grid-column-start: span 2;
+}
